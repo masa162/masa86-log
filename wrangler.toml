@@ -1,7 +1,7 @@
 name = "masa86-log"
 compatibility_date = "2025-04-01"
 compatibility_flags = ["nodejs_compat"]
-pages_build_output_dir = ".worker-next"
+pages_build_output_dir = ".open-next/worker"
 
 # D1 Database binding
 [[d1_databases]]

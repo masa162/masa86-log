@@ -7,7 +7,7 @@ pages_build_output_dir = ".worker-next"
 [[d1_databases]]
 binding = "DB"
 database_name = "masa86-blog-db"
-database_id = "YOUR_DATABASE_ID_HERE"
+database_id = "b04a838e-0f4f-4b87-8691-c13d02e049a8"
 
 # Environment variables (configure in Cloudflare Dashboard)
 # BASIC_AUTH_USER

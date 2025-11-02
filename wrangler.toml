@@ -1,0 +1,14 @@
+name = "masa86-log"
+compatibility_date = "2025-04-01"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = ".worker-next"
+
+# D1 Database binding
+[[d1_databases]]
+binding = "DB"
+database_name = "masa86-blog-db"
+database_id = "YOUR_DATABASE_ID_HERE"
+
+# Environment variables (configure in Cloudflare Dashboard)
+# BASIC_AUTH_USER
+# BASIC_AUTH_PASS

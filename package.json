@@ -5,8 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "preview": "wrangler pages dev .worker-next",
-    "deploy": "npm run pages:build && wrangler pages deploy .worker-next",
+    "preview": "wrangler pages dev .open-next",
+    "deploy": "npm run pages:build && wrangler pages deploy .open-next",
     "pages:build": "npx @opennextjs/cloudflare build",
     "cf-typegen": "wrangler types",
     "start": "next start",
